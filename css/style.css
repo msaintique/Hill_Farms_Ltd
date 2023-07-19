@@ -18,29 +18,87 @@
 img{
     margin-left: 530px;
     margin-top: -14px;
-    height: 130px;
+    height: 100px;
     width: 130px;
     padding: 15px;
 }
 .menu{
-    border: 100%;
-    height: 50px;
-    width: 100%;
-    background-color: rgb(43, 42, 42);
+    border: 1px solid black;
+    height: 20px;
+    background-color: rgb(11, 10, 10);
+    margin-top:-18px;
+    padding: 25px;
     
 }
 .menu a
 {
     text-decoration: none;
     color: white;
-    padding-right: 20px;
-    padding-top: -40px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     
 
     
 }
 .body1 img{
-    width: 100%;
+    width: 1333px;
     height: 400px;
     margin-left: -15px;
+}
+.about h3
+{
+ font-style: bold;
+ font-size: 20px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about p
+{
+    font-size: 20px;
+}
+.form
+{
+    margin-left: 500px;
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(89, 81, 81);
+}
+.form label
+{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.form input
+{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(32, 30, 30);
+    color: white;
+    border-radius: 1px solid rgb(32, 30, 30);
+    font-size: 20px;
+    
+}
+.form h3
+{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#Messages
+{
+    font-size: 20px;
+    background-color: rgb(32, 30, 30);
+    color: white;
+}
+.form button
+{
+    margin-left: 70px;
+
 }

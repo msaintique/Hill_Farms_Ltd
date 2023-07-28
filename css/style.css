@@ -1,4 +1,13 @@
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/chill6.jpg);
+   
+}
+
 .header
 {
     border: 100%;
@@ -7,6 +16,7 @@
     height: 50px;
     margin-top: -20px;
     font-size: 20px;
+    
 }
 .header h3
 {
@@ -18,8 +28,8 @@
 img{
     margin-left: 530px;
     margin-top: -14px;
-    height: 100px;
-    width: 130px;
+    height: 90px;
+    width: 150px;
     padding: 15px;
 }
 .menu{
@@ -43,19 +53,26 @@ img{
     
 }
 .body1 img{
-    width: 1333px;
+    width: 1349px;
     height: 400px;
     margin-left: -15px;
 }
+
 .about h3
 {
+ font-size: 25px;
  font-style: bold;
- font-size: 20px;
+ text-transform: capitalize;
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .about p
 {
     font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gallery img{
+ margin-left: 10px;
 }
 .form
 {
@@ -102,3 +119,70 @@ img{
     margin-left: 70px;
 
 }
+/* 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.section {
+    padding: 2rem 1rem;
+}
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+  
+}
+
+.product {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.footer1 p{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+} */
